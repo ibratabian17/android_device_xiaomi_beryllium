@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2022 The LineageOS Project
+# Copyright (C) 2018-2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -85,6 +85,10 @@ PRODUCT_COPY_FILES += \
 # HW crypto
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
+
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.0.vendor
 
 # Input
 PRODUCT_COPY_FILES += \
